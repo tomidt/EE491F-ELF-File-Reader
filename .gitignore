@@ -1,0 +1,34 @@
+###############################################################################
+#   University of Hawaii, College of Engineering
+#   readelf - SRE - Spring 2024
+#
+### Tells git which files to ignore
+###
+### @see https://git-scm.com/docs/gitignore
+###
+### @file    .gitignore
+### @author  Dustin Tomi <tomid@hawaii.edu>
+###############################################################################
+
+# Compiled Object files
+*.o
+*.obj
+
+# Doxgen Output
+generated_docs/
+
+# Ignore a hidden file for MacOS filesystems
+.DS_Store
+
+# Ignore vi swap files and core files
+.*.swp
+core
+
+# Ignore executable files
+*.exe
+*.out
+*.app
+readelf_s
+readelf_h
+wc
+
